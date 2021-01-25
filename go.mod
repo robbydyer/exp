@@ -1,4 +1,4 @@
-module golang.org/x/exp
+module github.com/robbydyer/exp
 
 go 1.12
 
