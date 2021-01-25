@@ -1,18 +1,18 @@
-This is a fork-and-subset of github.com/BurntSushi/xgb at git revision
+This is a fork-and-subset of github.com/jezek/xgb at git revision
 3ac861bb (2015-04-26), plus additional manual patches (see below).
 
 The subset consists of these directories:
-github.com/BurntSushi/xgb
-github.com/BurntSushi/xgb/render
-github.com/BurntSushi/xgb/shm
-github.com/BurntSushi/xgb/xproto
+github.com/jezek/xgb
+github.com/jezek/xgb/render
+github.com/jezek/xgb/shm
+github.com/jezek/xgb/xproto
 
-Other directories in the original github.com/BurntSushi/xgb repository are not
+Other directories in the original github.com/jezek/xgb repository are not
 used by golang.org/x/exp/shiny, and were not copied to the vendor tree here:
-github.com/BurntSushi/xgb/bigreq
-github.com/BurntSushi/xgb/composite
+github.com/jezek/xgb/bigreq
+github.com/jezek/xgb/composite
 etc
-github.com/BurntSushi/xgb/xvmc
+github.com/jezek/xgb/xvmc
 
 Additional manual patches:
 https://go-review.googlesource.com/#/c/12765/

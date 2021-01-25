@@ -4,7 +4,7 @@ go 1.12
 
 require (
 	dmitri.shuralyov.com/gpu/mtl v0.0.0-20201218220906-28db891af037
-	github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802
+  github.com/jezek/xgb v0.0.0-20210121230032-cec22bda1ce1
 	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20200222043503-6f7a984d4dc4
 	golang.org/x/image v0.0.0-20190802002840-cff245a6509b
 	golang.org/x/mobile v0.0.0-20201217150744-e6ae53a27f4f
