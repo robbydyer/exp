@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"golang.org/x/exp/errors"
-	"golang.org/x/exp/errors/fmt"
+	"github.com/robbydyer/exp/errors"
+	"github.com/robbydyer/exp/errors/fmt"
 )
 
 func baz() error { return errors.New("baz flopped") }
@@ -29,14 +29,14 @@ func Example_formatting() {
 	//
 	// Detailed error:
 	// foo:
-	//     golang.org/x/exp/errors/fmt_test.foo
-	//         golang.org/x/exp/errors/fmt/format_example_test.go:17
+	//     github.com/robbydyer/exp/errors/fmt_test.foo
+	//         github.com/robbydyer/exp/errors/fmt/format_example_test.go:17
 	//   - bar(nameserver 139):
-	//     golang.org/x/exp/errors/fmt_test.bar
-	//         golang.org/x/exp/errors/fmt/format_example_test.go:16
+	//     github.com/robbydyer/exp/errors/fmt_test.bar
+	//         github.com/robbydyer/exp/errors/fmt/format_example_test.go:16
 	//   - baz flopped:
-	//     golang.org/x/exp/errors/fmt_test.baz
-	//         golang.org/x/exp/errors/fmt/format_example_test.go:15
+	//     github.com/robbydyer/exp/errors/fmt_test.baz
+	//         github.com/robbydyer/exp/errors/fmt/format_example_test.go:15
 }
 
 func stripPath(s string) string {

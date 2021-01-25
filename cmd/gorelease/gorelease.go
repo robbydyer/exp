@@ -95,7 +95,7 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/exp/apidiff"
+	"github.com/robbydyer/exp/apidiff"
 	"golang.org/x/mod/modfile"
 	"golang.org/x/mod/module"
 	"golang.org/x/mod/semver"

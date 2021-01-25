@@ -9,7 +9,7 @@ import (
 	"go/types"
 	"os"
 
-	"golang.org/x/exp/apidiff"
+	"github.com/robbydyer/exp/apidiff"
 	"golang.org/x/tools/go/gcexportdata"
 	"golang.org/x/tools/go/packages"
 )

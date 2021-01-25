@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	"golang.org/x/exp/errors"
-	"golang.org/x/exp/errors/fmt"
+	"github.com/robbydyer/exp/errors"
+	"github.com/robbydyer/exp/errors/fmt"
 )
 
 func TestIs(t *testing.T) {

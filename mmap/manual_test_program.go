@@ -16,7 +16,7 @@ import (
 	"math/rand"
 	"time"
 
-	"golang.org/x/exp/mmap"
+	"github.com/robbydyer/exp/mmap"
 )
 
 var garbage []byte

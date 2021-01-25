@@ -10,7 +10,7 @@ import (
 	"io"
 	"strings"
 
-	"golang.org/x/exp/apidiff"
+	"github.com/robbydyer/exp/apidiff"
 	"golang.org/x/mod/module"
 	"golang.org/x/mod/semver"
 	"golang.org/x/tools/go/packages"

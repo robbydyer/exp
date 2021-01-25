@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"golang.org/x/exp/io/spi/driver"
+	"github.com/robbydyer/exp/io/spi/driver"
 )
 
 const (
