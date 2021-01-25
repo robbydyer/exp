@@ -13,8 +13,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"golang.org/x/exp/shiny/driver/internal/win32"
-	"golang.org/x/exp/shiny/screen"
+	"github.com/robbydyer/exp/shiny/driver/internal/win32"
+	"github.com/robbydyer/exp/shiny/screen"
 	"golang.org/x/mobile/event/key"
 	"golang.org/x/mobile/event/lifecycle"
 	"golang.org/x/mobile/event/mouse"

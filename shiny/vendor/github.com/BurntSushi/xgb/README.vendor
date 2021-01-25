@@ -8,7 +8,7 @@ github.com/jezek/xgb/shm
 github.com/jezek/xgb/xproto
 
 Other directories in the original github.com/jezek/xgb repository are not
-used by golang.org/x/exp/shiny, and were not copied to the vendor tree here:
+used by github.com/robbydyer/exp/shiny, and were not copied to the vendor tree here:
 github.com/jezek/xgb/bigreq
 github.com/jezek/xgb/composite
 etc

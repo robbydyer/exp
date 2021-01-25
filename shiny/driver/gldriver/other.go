@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"golang.org/x/exp/shiny/screen"
+	"github.com/robbydyer/exp/shiny/screen"
 )
 
 const useLifecycler = true

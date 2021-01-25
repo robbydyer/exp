@@ -1,4 +1,4 @@
-module golang.org/x/exp/sumdb
+module github.com/robbydyer/exp/sumdb
 
 go 1.12
 

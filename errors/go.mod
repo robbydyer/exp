@@ -1,1 +1,1 @@
-module golang.org/x/exp/errors
+module github.com/robbydyer/exp/errors

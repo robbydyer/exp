@@ -10,7 +10,7 @@ import (
 	"image"
 	"image/color"
 
-	"golang.org/x/exp/shiny/screen"
+	"github.com/robbydyer/exp/shiny/screen"
 	"golang.org/x/image/draw"
 )
 

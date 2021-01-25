@@ -7,8 +7,8 @@ package widget
 import (
 	"image"
 
-	"golang.org/x/exp/shiny/widget/node"
-	"golang.org/x/exp/shiny/widget/theme"
+	"github.com/robbydyer/exp/shiny/widget/node"
+	"github.com/robbydyer/exp/shiny/widget/theme"
 	"golang.org/x/image/font"
 	"golang.org/x/image/math/fixed"
 )
